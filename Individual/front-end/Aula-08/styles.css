@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+background-color: #131313;
+
+}
+
+h1 {
+
+    color: white;
+    font-family: "roboto";
+    margin: 12px;
+}
+
+h2 {
+
+    color: #057c9d;
+    margin: 12px;
+}
+
+p {
+
+    color: #dbdbdb;
+    font-family: "roboto" ;  
+
+}
+
+a {
+
+    color: yellow;
+}
+
+.media-picture {
+    height: 400px;
+    background-image: url(https://images3.alphacoders.com/723/thumb-1920-72397.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.review-score {
+
+    color: white;
+    background: #e6bd09;
+    padding: 12px;
+    margin: 12px;
+}
