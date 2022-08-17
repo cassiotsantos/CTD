@@ -1,0 +1,28 @@
+body {
+
+    background-color: #f4cfcf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.job-title {
+    background-color: #cc6565;
+    color: white;
+    font-size: 20px ;
+}
+
+#high {
+    color: #930707;    
+}
+
+.til {
+
+   text-align: center;
+   font: bolder;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-pag {
+    background-color: #ed9797;
+    color: white;
+}
+
