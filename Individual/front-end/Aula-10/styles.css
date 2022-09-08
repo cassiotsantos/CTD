@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.top-promo {
+
+   background: #1cd1b0;
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   size: 15px;
+   line-height: 18px;
+   padding: 10px 25px;
+}
+
+.menu-header {
+
+    background: #00669F;
+    color: black;
+    font-family: 'Roboto';    
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    padding: 30px 20px;
+}
+
+.main-content {
+
+   display: flex;
+   gap: 100px;
+   justify-content:center;
+   margin: 55px auto;  
+
+}
+
+
+.main-card{
+
+    background: #F3F3F3; 
+    width: 397px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    
+}
+
+.main-card .heart-icon {
+
+        width: 30px;
+        position: absolute;
+        top: 5px;
+        left: 10px;
+
+}
+
+.background-image {
+
+    width: 100%;
+    margin-bottom: -50px;
+
+}
+
+.profile-image {
+
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 15px;
+    
+}
+
+.card-text {
+    color: #333333;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 15px;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.backgroud-bottom {
+
+    background: #00669F;
+    width: 146px;
+    padding: 15px;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    border: 0;
+    margin: 10px;
+    
+}
+
+
+footer{
+    background: #00669F;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 20px;
+    margin: 60px auto; 
+
+}
+
