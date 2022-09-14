@@ -296,9 +296,16 @@ footer {
   
     }
 
+    nav {
+
+        width: 100%;
+    }
+
     .list-header {
         
-        font-size: 16px;               
+        font-size: 16px;
+        gap: 20px;
+        padding-right: 5px;             
     }
 
 }
