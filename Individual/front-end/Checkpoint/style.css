@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: rgba(243, 189, 189, 0.672);
+    padding: 10px 20px; 
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+.brand-header {
+
+              
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 20px; 
+        padding-left: 50px;              
+        
+}
+
+ h1 {
+
+    font-family: 'Ms Madi';
+    font-size: 3.125rem;
+    color:rgb(63, 60, 60);
+    
+}
+
+
+.image-logo {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;  
+}
+
+.list-header {
+
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 100px;
+    cursor: pointer;       
+}
+
+.list-header .style-list {
+
+    background-color: rgba(243, 86, 86, 0.94);
+    border-radius: 25px;
+    padding: 15px;
+    color: aliceblue;
+    align-items: center; 
+
+}
+
+.section-banner {
+    background-image: url(./imagens/banner-canecas.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    align-items: center;
+}
+
+.text-image-banner {
+   
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;    
+    align-items:center ;
+    gap: 15px; 
+    font-family: 'Roboto Condensed'; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    margin-left: auto;
+    
+}
+
+.text-image-banner h2{
+
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgba(92, 8, 138, 0.71);
+      
+}
+
+
+.text-image-banner h3 {
+
+    font-size: 20px;
+    font-weight: 700px;
+    color: rgb(88, 9, 162);
+    
+}
+
+.text-image-banner button {
+
+    width: 100px;
+    background-color: rgba(187, 7, 7, 0.733);
+    color: white;
+    font-size: 15px;
+    border-style: none; 
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    cursor: pointer; 
+
+}
+
+.text-main-h2{
+
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px;   
+    padding: 10px;
+
+}
+
+.main-cards {
+    display: flex;
+    gap: 40px; 
+    justify-content: center;  
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;  
+    
+}
+
+.products-card {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    border-style:groove;
+    border-color: rgba(235, 100, 100, 0.252); 
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    align-items: center;   
+       
+}
+
+.image-product {
+
+    width: 100%;
+    object-fit: cover; 
+    border-radius: 10px;    
+}
+
+p {
+
+    font-family: 'Roboto';
+    font-weight: 500;
+
+}
+
+.price-real {
+
+    font-size: 14px;
+    text-decoration: line-through;
+
+}
+
+.price-promo {
+
+    font-size: 19px;
+    color: rgba(227, 70, 7, 0.791);
+}
+
+.product-buttom {
+
+    width: 100px;
+    background-color: rgba(187, 7, 7, 0.733);
+    color: white;
+    font-size: 15px;
+    border-style: none; 
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    cursor: pointer; 
+
+}
+
+button:hover {
+
+    background-color: rgba(245, 9, 9, 0.746);
+    
+}
+
+.video-player {
+
+    display: flex;
+    justify-content: center;       
+    flex-wrap: wrap; 
+    margin: 20px;
+}
+
+footer {
+
+    display: flex;
+    width: 100%;
+    justify-content:space-around ;
+    background-color: rgba(155, 107, 107, 0.875);
+    justify-items: center;
+    flex-wrap: wrap;
+    color: brown; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+   
+   
+}
+
+.icon-social {
+
+    padding: 15px;
+    gap: 5px;
+    
+}
+
+
+.icon-social h3 {
+
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed';
+
+}
+
+.icon-social div {
+    justify-content: center;
+}
+
+.image-icon{
+    
+    width: 25px;
+    margin: 5px;
+                
+}
+
+.contact-footer {
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px;
+}
+
+.contact-footer h3 {
+
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed';    
+
+}
+
+.info-contact-footer h4 {
+
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin: 5px;
+}
+
+.text-contact {
+
+    padding-left: 4px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 1024px ) {    
+    
+    h1 {
+        
+        width: 200px;        
+        font-size: 30px;         
+  
+    }
+
+    nav {
+
+        width: 100%;
+    }
+
+    .list-header {
+        
+        font-size: 16px;
+        gap: 20px;
+        padding-right: 5px;             
+    }
+
+}
+
+
+@media (max-width: 768px ) {    
+    
+    .brand-header {
+                
+            gap: 15px; 
+            padding-left: 1px;       
+                  
+    }
+    
+     h1 {
+        
+        width: 160px;        
+        font-size: 26px;
+          
+    }
+        
+    .image-logo {
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50%;  
+    }
+    
+    .list-header {
+    
+        font-size: 13px;               
+    } 
+
+       
+    .text-image-banner {
+       
+        width: 500px;
+        height: 100%;            
+        padding-top: 5%;
+        padding-bottom: 15%;       
+  
+    }
+    
+    .text-image-banner h2{
+    
+        font-size: 35px;      
+    }
+    
+    .text-image-banner h3 {    
+        font-size: 15px;  
+        
+    }
+    
+    .text-image-banner button {
+    
+        width: 100px;    
+        font-size: 13px;   
+        font-weight: 900;
+    
+    }
+
+    .text-main-h2{
+
+        font-size: 35px;       
+        margin: 15px;   
+        padding: 5px;
+    
+    }
+    
+    .main-cards {
+        
+        gap: 20px;  
+    }
+    
+    .products-card {
+    
+        gap: 15px;
+        width: 210px;       
+        
+    }
+    
+    .products-card {
+        font-size: 13px;
+        
+
+    }
+    
+    .product-buttom {
+    
+        width: 90px;
+        font-size: 12px;
+        
+    }
+  
+  
+}
+
+@media (max-width: 425px) {
+
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 20px;                
+    }
+
+    nav {
+
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .list-header {
+
+        display: flex;
+        flex-direction: column;        
+        gap: 15px;     
+        font-size: 15px;
+        padding: 0 100px;
+        text-align: center;
+        font-size: 13px; 
+
+        }
+   
+
+        h1 {
+        
+            width: 220px;        
+            font-size: 35px;
+            text-align: center;
+            
+        }   
+        
+    
+        
+    .text-image-banner {
+   
+            width: 100%;
+            height: 100%;            
+            padding-top: 5%;
+            padding-bottom: 70%; 
+            padding-left: 2%;      
+        
+        }    
+
+    .text-image-banner h2{
+
+            font-size: 25px;      
+        }    
+
+    .text-image-banner h3 {    
+            font-size: 15px;  
+            
+        } 
+        
+        
+    .section-banner {
+            background-position: 10%;
+            
+        }  
+        
+     
+    .products-card {
+
+           width: 350px;    
+            
+        }   
+
+        
+        .products-card h3 {
+
+
+            font-size: 20px;
+        }  
+        
+        .product-buttom {
+
+            font-size: 14px;
+        }
+
+
+
+        [style*="--aspect-ratio"] > :first-child {
+            width: 380px;
+            min-height: 25px;
+         
+          }
+                  
+           
+          }    
+
+        
+
+
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
