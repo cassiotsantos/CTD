@@ -1,0 +1,33 @@
+.main-content .welcome {
+
+
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.welcome h1 {
+
+    color: white;
+
+}
+
+.main-content .products {
+
+    padding: 60px 0;
+}
+
+
+.main-content .section-title {
+
+    color: rgb(8, 8, 8);
+    font-size: 42px;
+    text-align: center;
+
+
+}
+

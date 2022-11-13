@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Karla&family=Ms+Madi&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-info {
+
+    background-color: #1CD1B0;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    padding: 4px 30px;
+}
+
+.header-brand {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    background-color: #00669F;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 15px 30px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 100%;
+    width: 620px;
+    gap: 20px;
+    align-items: center;  
+    
+
+}
+
+.title-login {
+
+    width: 100%;
+    width: 400px;
+
+}
+
+.title-login h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    
+}
+
+.login-form input {
+
+    width: 400px;
+    padding: 15px;
+     
+
+}
+
+.account-registre {    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-registre button {
+
+    background-color: #1CD1B0;
+    width: 400px;
+    color: black;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 44px;
+    border: none;
+    border-radius: 24px;
+
+}
+.account-registre div {
+    display: flex;
+    gap: 5px; 
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 215;
+    line-height: 28px;
+    margin-top: 4px;
+}
+
+
+
+footer {
+
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 5px;
+    margin-top: 77px;
+    
+}
