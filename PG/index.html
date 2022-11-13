@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="teste">Formulário</h1>
+<!-- tags e atributos para criar um formulário -->
+    <form action=""> <!-- Essa tag é usada para criar um formulário/ lembrando que o atributo action deve ser usado para configurar o modo que enviamos esses dados do formulário -->
+        <label for="Nome">Nome</label> <!-- Primeiro devemos adicionar uma label para o campo input com um Atributo -->
+        <input type="text" id="Nome" name="Nome" value="Cássio"> <!-- Depois devemos adicionar input com um type para escolher a função (text, email, password, etc), adicionar o Id usando o atributo da label + o nome-->
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+        <br>
+        <label for="Esolha uma cor"></label> <!-- Para criar uma caixa de seleção, basta usar a tag Select e inserir um nome (sempre acompanhada também de uma label com o atributo FOR) -->
+        <select name="color">
+            <option value="#FF0000">Vermelho</option> <!-- Dentro da tag select usar a tag option, com um valor atributo com o que será enviado pelo formuário-->
+            <option value="#00ff00">Verde</option>
+        </select> 
+        <br><br>
+        <h1>usando o Button radio</h1>
+        <label for="">Você foi ao cinema esse ano?</label>
+        <br> <!-- Para criar essa caixa de seleção, adicionar o atributo radio
+        inserir um ID que será refletido no atributo value e também  na label que será exibida na frete 
+        do radio. Além disso, também devemos adicionar o nome para esse atributo, assim o usuário pode selecionar apenas uma opção -->
+        <input type="radio" id="sim" name="cinema" value="sim"> <label for="Sim">Sim</label>
+        <br>
+        <input type="radio" id="Não" name="cinema" value="Não"> <label for="Não">Não</label>
+        <br>
+        <h1>usando o checkbox</h1>
+        <!-- funciona da mesma forma que o button radio, com a diferença que o usuário pode selecionar qualquer opção
+            ou mais de uma opção, porém, da mesma forma que o button radio, precisamos informar de qual grupo esses input sào.
+            No caso do nosso exemplo é genero e por isso vamos adicionar o atributo name em todos os inputos
+            além disso, também precisamos sempre colocar o value em cada um dos campos para endicar qual formação será enviada após o usuário selecionar
+        
+        Obs.: usando o atributo checked vc pode deixar alguma opção marcada quando carregar a página, basta escolher qual opção vc deseja faze isso
+        -->
+         <label for="genero">qual seu genero de cinema favorito?</label>  
+         <br>
+         <input type="checkbox" name="genero" id="terror" value="terror" checked> <label for="terror">Terror</label>
+         <br>
+         <input type="checkbox" name="genero"  id="Drama" value="drama"> <label for="terror">Terror</label>
+         <br>  
+        <input type="checkbox" name="genero"  id="Romance" value="romance"> <label for="Romance">Romance</label>
+         <br>
+        
+        <h1>Exeplos de checkbox que não precisa de value</h1>
+        <!--Para esses exemplos não é necessário adicionar o atributo Value, já que a resposta será dita
+        com a marcação ou não marcação do checkbox-->
+        <br>
+        <label for="termos">Aceito os termos</label>
+        <input type="checkbox" name="termos">
+        <br>
+        <label for="newsletter">Receber novidades</label>
+        <input type="checkbox" name="newsletter">
+        <br>
+        <h1>Inserir o campo para datas </h1>
+        <!-- esse campo é bem útil para coletar dados como data de nascimento
+        ele deve ser usado no mesmo formato que os demais input
+        A diferença é que o type deve ser colocado o atributo Date, o value faz com que uma determinada data apareça como padrão na página
+         -->
+        <label for="date">data</label>
+        <input
+         type="date"
+         name="date"
+         value="1989-04-26" 
+         min="2018-01-01"
+         max="2022-12-31" 
+         >
+         <br>
+         <h1>Botão file (arquivo) </h1>
+        <!-- Com esse recurso, conseguimos adicionar uma opção para o usuário carregar algum arquivo
+            Lembrando que o atributo file por padrão só permite carregar um arquivo pode vez, porém, podemos
+            adicionar outro atributo chamado Multiple que permite adicionar mais de um arquivo.
+            Também temos o atributo accept que permite definir o time de arquivo que queremos adicionar.
+
+            Lembrando que esse recurso é pensando apenas no usuário final, caso seja necessário validar as informações,
+            é recomendado usar o JS tanto no front como no back.
+
+            Obs.: conseguimos estilizar pelo css e JS.
+         -->
+
+         <!--Não usar a tag label para essas opções-->
+        <label for="arquivo">data</label>
+        <input
+         type="file"
+         name="arquivo"
+         accept=".jpg, .png"
+         multiple
+           
+         >
+         
+        <br><br>
+        <h1>usando o campo para escrever texto</h1>
+        <label for="comentario">Comentário</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea> <!--Para inserir uma caixa de comantário, usar a tag textarea-->
+        <br>
+        <h1>usando botão</h1>
+        <!--Não usar a tag label para essas opções-->
+        <input type="submit" value="enviar"> <!-- forma alternativa de criar um botão-->
+        <br>
+        <button>Enviar 2</button>
+    </form>
+
+
+
+    <form class="cadastro-form"> <!--Essa tag indica que estamos iniciando (Agrupar/tag de conteúdo) um formulário no HTML-->
+       
+        <div class="controlador">  
+            <label for="nomeCompleto">Nome completo</label>
+                <input 
+                    type="text" 
+                    id="nomeCompleto" 
+                    name="nomeCompleto"
+                    minlength="6"
+                    maxlength="20"
+                    required>                
+                    <!--O atributo "name" (colocar o mesmo nome do atributo Id) é usado para enviar o valor para o backend / Porém vamos usar o JS para isso-->
+                
+        </div> 
+       
+       
+        <div class="controlador">
+            <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required> 
+                    <!--tag só abre e não fecha  e type define objetivo do input-->
+        </div>
+        
+        <div class="controlador">
+            <label for="hora">Hora</label>
+                <input 
+                    type="time"
+                    id="hora"
+                    name="hora">
+        </div>        
+
+        <button type="submit">Enviar formulário</button>
+        <button type="reset">Limpar</button> <!--é recomendando colocar o type do botão para identicar para que ele serve-->
+        
+    </form>
+
+    
+</body>
+</html>
