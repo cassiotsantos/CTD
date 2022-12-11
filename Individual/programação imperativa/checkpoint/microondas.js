@@ -99,7 +99,7 @@ function microondas (opcao,tempo) {
 
 }
 
-let execucao =  microondas (4,40)
+let execucao =  microondas (2,10)
 console.log(`
  
         Prato pronto, bom apetite!!!
