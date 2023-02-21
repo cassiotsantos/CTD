@@ -24,7 +24,7 @@ function Aluno(nome, qtdFaltas, notas) {
         for (let i of this.notas) {
             media += i;
         }
-        return (media / this.notas.length);
+        return (media / this.notas.length).toFixed(1);
     }
     this.faltas = function () {
         this.qtdFaltas++;
