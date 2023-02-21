@@ -1,0 +1,58 @@
+/* Documentação para ajudar com JS e HTML:
+
+ https://developer.mozilla.org/pt-BR/ 
+
+
+ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+ */
+
+
+// Js é importante para fazer o site funcionar. Na visão do usuário é qualquer coisa, para gente é aplicação
+
+// Por esse motivo vamos considerar tudo que for aplicação desenvolvido pelo JS, ou seja, o que deixa de ser 
+// uma simples página, sendo algo mais robusto.
+
+/*   
+
+Podemos usar o JS dentro da tag <body> </body> no HTML, igual o exemplo abaixo
+
+    <script>
+
+    escrever o código aqui dentro
+
+    </script>
+
+Obs.: Assim como CSS não recomendamos fazer isso, porém, se for necessário devido o carregamento ou algo relacionado ao carregamento da página, podemos estudar a possibilidade de mudar o código para dentro do código HTML.
+
+
+ <script src=""></script> // importar o arquivo do script para dentro do HTML.
+
+
+
+*/
+
+
+para declarar variável no JS:
+
+var: cria uma variável global / é um trecho na memória que vamos gravar algum tipo de dado.
+
+     -> var name = 'Cássio teixeira'
+     -> let age = 22
+     -> const job + 'Tech'
+
+     para imprimir a informação no test do JS, usamos o "console.log"
+
+     window.prompt() // usar para aparecer uma caixa no navegador.
+
+       alert() // é usado para aparecer um alerta no navegador 
+
+
+
+
+
+
+
+
+
+

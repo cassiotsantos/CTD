@@ -1,0 +1,51 @@
+aula passada: configuração o vm, configuração da máquina virtual 
++ a instalação do linux e alteração do nível para o root.
+
+--> -$ : quer dizer que é um usuário padrão do sistema (não possui um super usuário)
+
+--> cd : navegar entre os diretórios.
+ ex: cd /home/lucas/Desktop/
+
+ --> rm -rf: pode apagar tudo dentro do diretório.
+
+ --> sudo su: virar um super usuário para fazer qualquer ação. (su é de super usuário)
+
+ obs: se não possui acesso de superusuário, sempre usar o sudo na frente de alguma ação
+
+# indica que é um super usuário.
+
+--> mkdir nomedapasta: você cria uma pasta
+
+--> touch nomedoarquivo+extensão do arquivo: cria um arquivo através da linha de comando.
+
+--> nano nomedoarquivo+extensão do arquivo: para editar um arquivo através da linha de comando.
+
+--> apt install vim: para instalar o editor de texto vim no shell do linux mint.
+
+--> cd ..: volta para pasta anterior.
+
+--> cd nomedapasta/nomedapasta: vamos voltar dois diretórios (é só escrever o caminho que queremos voltar)
+
+--> cd ../../: isso quer dizer que eu quero voltar dois diretórios.
+
+--> rm nomedoarquivo: é usado para apagar arquivos.
+
+--> rmdir diretório: usado para apagar diretório. (não é possível usar esse comando quando o diretório não está vazio)
+
+--> rmdir -Rf diretório:(r = recusivo e f = forçar): para forçar apagar diretório com arquivos dentro
+
+--> rm -rf diretório: se o comando rmdir -Rf não funcionar, usar esse comando para forçar apagar os arquivos.
+
+--> apt update: toda vez que for instalar algo no linux, ele vai pedir para atualizar todas as pastas e repositórios, por isso
+devemos usar esse comando antes.
+
+--> apache / Nginx é um servidor web. para instalar usar o --> apt install apache2.
+
+--> apache2 -v: ver  versão do apache instalado.
+
+--> systemctl status apache2: para ver o status de funcionamento do apache
+
+--> cd /var/www/html/: onde fica os arquivos da página do projeto do apache.
+
+--> 
+

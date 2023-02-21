@@ -1,0 +1,34 @@
+virtualização, o que é e qual a sua vantagem?
+
+antigamente existia um servidor físco
+
+depois tivemos um banco de dados
+
+depois iniciou o conceito de maquina virtualização
+
+e por último  incloud
+
+O que é VM ou virtual machine? 
+
+é um recurso que simula ambiente computacional, ou seja, seria pega um 
+servidor e transformar em vários computadores, permitindo ter várias máquinas rodando.
+
+P2V (phisical to virtual)
+
+a estrutura é: hardware > Hypervisor (virtualizado) > os sistemas operacionais
+
+- virtualizador baremetal (para o servidor) > tem o hardware, instalo o virtualizador e crio minhas máquinas virtuais
+
+ex: vmware, hyper-v, citrix xenserver, oracle vm
+
+- virtualizador workstation > tem o hardware > sistema operacional > virtualizador e crio as máquinas virtuais.
+
+ex: vmware, oracle virtual box, hyper-v
+
+
+comandos básico para usar no shell do linux GNU:
+
+ --> df -h : verificar informações da máquina.
+ --> ls -lia: ver lista de pastas/arquivos (podemos usar ls -l ou ls)
+ --> sudo su : passar do nível de acesso para root
+ --> apt update: atualizar pacotes
